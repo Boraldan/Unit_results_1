@@ -7,7 +7,7 @@ Main();
 
 void Main() {
 
-string [] strEnt = {"Hello", "Hi!", "Tomorro", "GB", "Forever"};
+string [] strEnt = {"Hello", "Hi!", "Tomorro", "GB", "Forever", "*(&#*^(#*$"};
 int N = 0;
 string [] rezalt = new string [N];
 
