@@ -7,11 +7,11 @@ Main();
 
 void Main() {
 
-string [] strArray = {"Hello", "Hi", "Tomorro", "GB", "Forever"};
+string [] strEnt = {"Hello", "Hi!", "Tomorro", "GB", "Forever"};
 int N = 0;
 string [] rezalt = new string [N];
 
-PrintArr(Find(strArray));
+PrintArr(Find(strEnt));
 
 string [] Find(string[] strArr) 
 {
