@@ -8,23 +8,22 @@ Main();
 void Main() {
 
 string [] strEnt = {"Hello", "Hi!", "Tomorro", "GB", "Forever", "*(&#*^(#*$"};
-int N = 0;
-string [] rezalt = new string [N];
 
 PrintArr(Find(strEnt));
 
 string [] Find(string[] strArr) 
 {
+    string [] rezalt = new string[strArr.Length];
     int j = 0;
     for (int i = 0; i < strArr.Length; i++)
     {
         if (3 >= strArr[i].Length) 
         {
-            Array.Resize(ref rezalt, ++N);  
             rezalt[j] = strArr[i];
             j++;            
         }
-    }
+        }
+    Array.Resize(ref rezalt, j); 
     return rezalt;
 }
  
